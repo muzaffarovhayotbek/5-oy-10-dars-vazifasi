@@ -38,27 +38,21 @@
 }
 
 .firts-input {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 17px 254px 17px 48px;
+  padding: 20px;
   border-radius: 16px;
   border: none;
-  background-color: #F0EDFFCC;
+  background-color: #f0edffcc;
   font-family: 'Poppins';
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
-  color: #1C1C1C;
+  color: #1c1c1c;
   margin-bottom: 18px;
 }
 
 .two-input {
-  display: flex;
-  align-items: center;
-  gap: 6px;
   border: none;
-  padding: 17px 258px 17px 48px;
+  padding: 20px;
   border-radius: 16px;
   background-color: rgba(240, 237, 255, 0.8);
   font-family: 'Poppins';
@@ -66,7 +60,6 @@
   font-weight: 400;
   line-height: 18px;
   text-align: left;
-
 }
 
 .btn {
@@ -82,11 +75,10 @@
   padding: 17px 31px 17px 30px;
   border: none;
   border-radius: 16px;
-  background: linear-gradient(99.78deg, #9181F4 -5.85%, #5038ED 109.55%);
+  background: linear-gradient(99.78deg, #9181f4 -5.85%, #5038ed 109.55%);
   margin-top: 24px;
   transition: all 0.5s;
   color: rgba(255, 255, 255, 1);
-
 }
 
 .btn button:hover {
@@ -110,21 +102,13 @@
   color: rgba(82, 82, 82, 1);
 }
 
-.buttons-two {
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  border: 1px solid rgba(240, 237, 255, 1);
-  border-radius: 16px;
-}
-
-
 .buttons-btn {
+  text-decoration: none;
   margin-top: 24px;
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 11px 110px;
+  padding: 11px 105px;
   border: 1px solid rgba(240, 237, 255, 1);
   border-radius: 16px;
   font-family: 'Poppins';
@@ -132,9 +116,7 @@
   font-weight: 400;
   line-height: 18px;
   transition: all 0.9s;
-
 }
-
 
 .buttons-btn span {
   font-family: 'Poppins';
@@ -146,18 +128,19 @@
 }
 
 .buttons-two {
+  text-decoration: none;
+  margin-top: 24px;
   display: flex;
   align-items: center;
   gap: 8px;
+  padding: 11px 90px;
   margin-top: 16px;
   border: 1px solid rgba(240, 237, 255, 1);
   border-radius: 16px;
-  padding: 11px 101px;
   font-family: 'Poppins';
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
-
 }
 
 .buttons-two span {

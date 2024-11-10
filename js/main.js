@@ -4,7 +4,7 @@ const twoInput = document.querySelector('.two-input');
 
 function validate(firstInput, twoInput) {
   if (twoInput.value !== '123456') {
-    alert('password no`g`ri "123456" bo`lishi kerak');
+    alert('password no`to`g`ri "123456" bo`lishi kerak');
     return false;
   }
   return true;
